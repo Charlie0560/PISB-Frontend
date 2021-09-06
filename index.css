@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background: rgb(44, 44, 187);
+  font-weight: 100;
+  background: linear-gradient(
+    90deg,
+    rgba(44, 44, 187, 1) 0%,
+    rgba(20, 162, 230, 1) 0%,
+    rgba(0, 232, 244, 1) 0%,
+    rgba(39, 152, 182, 1) 0%,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(45, 208, 237, 1) 0%,
+    rgba(0, 244, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 25%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(45, 140, 173, 1) 100%,
+    rgba(0, 113, 125, 1) 100%
+  );
+  font-family: "Cantarell", sans-serif;
+
+  font-weight: 100;
+}
+h1 {
+  color: rgb(255, 255, 255);
+
+  font-weight: 100;
+
+  font-size: 40px;
+
+  margin: 40px 0px 20px;
+}
+
+.boxes {
+  font-family: sans-serif;
+
+  color: #fff;
+
+  display: inline-block;
+
+  font-weight: 100;
+
+  text-align: center;
+
+  font-size: 30px;
+}
+.boxes > div {
+  padding: 10px;
+  border-radius: 3px;
+  width: 150px;
+  background: transparent;
+  margin-top: 0%;
+  display: inline-block;
+}
+.boxes div > span {
+  padding: 15px;
+
+  border-radius: 3px;
+
+  background: transparent;
+
+  display: inline-block;
+}
